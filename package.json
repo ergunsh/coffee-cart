@@ -4,9 +4,12 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "replay": "replay --extension recordings/runner-extension.js recordings"
   },
   "dependencies": {
+    "@puppeteer/replay": "^0.5.0",
+    "puppeteer": "^14.4.1",
     "vue": "^3.0.5",
     "vue-router": "^4.0.11",
     "vuex": "^4.0.2"

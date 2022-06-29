@@ -1,0 +1,222 @@
+{
+  "title": "coffee checkout",
+  "steps": [
+    {
+      "type": "setViewport",
+      "width": 899,
+      "height": 898,
+      "deviceScaleFactor": 1,
+      "isMobile": false,
+      "hasTouch": false,
+      "isLandscape": false
+    },
+    {
+      "type": "navigate",
+      "url": "https://coffee-cart.netlify.app/",
+      "assertedEvents": [
+        {
+          "type": "navigation",
+          "url": "https://coffee-cart.netlify.app/",
+          "title": "Coffee cart"
+        }
+      ]
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "aria/Cappucino"
+        ],
+        [
+          "[data-test=Cappucino]"
+        ]
+      ],
+      "offsetY": 108.6608657836914,
+      "offsetX": 134.90185546875
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "aria/Proceed to checkout"
+        ],
+        [
+          "[data-test=checkout]"
+        ]
+      ],
+      "offsetY": 32.796875,
+      "offsetX": 165.1875
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "aria/Name"
+        ],
+        [
+          "#name"
+        ]
+      ],
+      "offsetY": 2.921875,
+      "offsetX": 54.515625
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "Shift"
+    },
+    {
+      "type": "change",
+      "value": "C",
+      "selectors": [
+        [
+          "aria/Name"
+        ],
+        [
+          "#name"
+        ]
+      ],
+      "target": "main"
+    },
+    {
+      "type": "keyUp",
+      "key": "Shift",
+      "target": "main"
+    },
+    {
+      "type": "change",
+      "value": "Coffee ",
+      "selectors": [
+        [
+          "aria/Name"
+        ],
+        [
+          "#name"
+        ]
+      ],
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "Shift"
+    },
+    {
+      "type": "change",
+      "value": "Coffee L",
+      "selectors": [
+        [
+          "aria/Name"
+        ],
+        [
+          "#name"
+        ]
+      ],
+      "target": "main"
+    },
+    {
+      "type": "keyUp",
+      "key": "Shift",
+      "target": "main"
+    },
+    {
+      "type": "change",
+      "value": "Coffee Lover",
+      "selectors": [
+        [
+          "aria/Name"
+        ],
+        [
+          "#name"
+        ]
+      ],
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "Tab"
+    },
+    {
+      "type": "keyUp",
+      "key": "Tab",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "Shift"
+    },
+    {
+      "type": "keyUp",
+      "key": "Shift",
+      "target": "main"
+    },
+    {
+      "type": "change",
+      "value": "coffee-lover",
+      "selectors": [
+        [
+          "aria/Email"
+        ],
+        [
+          "#email"
+        ]
+      ],
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "Shift"
+    },
+    {
+      "type": "change",
+      "value": "coffee-lover@",
+      "selectors": [
+        [
+          "aria/Email"
+        ],
+        [
+          "#email"
+        ]
+      ],
+      "target": "main"
+    },
+    {
+      "type": "keyUp",
+      "key": "Shift",
+      "target": "main"
+    },
+    {
+      "type": "change",
+      "value": "coffee-lover@example.com",
+      "selectors": [
+        [
+          "aria/Email"
+        ],
+        [
+          "#email"
+        ]
+      ],
+      "target": "main"
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "aria/Submit"
+        ],
+        [
+          "#submit-payment"
+        ]
+      ],
+      "offsetY": 14.859375,
+      "offsetX": 56.859375
+    }
+  ]
+}
